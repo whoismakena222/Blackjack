@@ -1,8 +1,6 @@
 public class Card {
     int cardNum;
 
-    int points;
-
     String suitName;
 
     int suitNum;
