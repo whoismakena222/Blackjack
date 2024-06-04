@@ -4,6 +4,8 @@ public class Main {
 
     int p;
 
+    public Player[] players; // make this an array
+
     public static void main(String[] args) {
         Main myMain = new Main();
     }
@@ -21,7 +23,17 @@ public class Main {
         }
 
         shuffle();
-        printDeck();
+//        printDeck();
+
+        players = new Player[4];
+
+        for(int n = 0; n < 4; n++) {
+            players[n] = new Player();
+
+        }
+
+        System.out.println("START");
+
         deal();
 
 
@@ -45,6 +57,13 @@ public class Main {
     }
 
     public void deal(){
+        int counter = 0;
+        for(int i = 0; i < players.length; i++){
+            for(int s = 0; s < player1.hand.length; s++)
+            players[i].hand[s] = deck[counter];
+            counter++;
+        }
+    players[0].printHand();
 
     }
 }

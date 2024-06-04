@@ -26,31 +26,31 @@ public class Card {
         cardName = "ace";
     }
     if (cardNum == 2){
-        cardName = "two";
+        cardName = "2";
     }
     if (cardNum == 3){
-        cardName = "three";
+        cardName = "3";
     }
     if (cardNum == 4){
-        cardName = "four";
+        cardName = "4";
     }
     if (cardNum == 5){
-        cardName = "five";
+        cardName = "5";
     }
     if (cardNum == 6){
-        cardName = "six";
+        cardName = "6";
     }
     if (cardNum == 7){
-        cardName = "seven";
+        cardName = "7";
     }
     if (cardNum == 8){
-        cardName = "eight";
+        cardName = "8";
     }
     if (cardNum == 9){
-        cardName = "nine";
+        cardName = "9";
     }
     if (cardNum == 10){
-        cardName = "ten";
+        cardName = "10";
     }
     if (cardNum == 11){
         cardName = "jack";
